@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles-survey.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="survey-wrapper">
+        <div class="title-container div-container">
+            <h1 id="title">Survey</h1>
+            <h3 id="description">This is a survey</h3>
+        </div>
+        <div class="div-container info-container">
+            <form id="survey-form" action="">
+                <div>
+                    <label for="name" id="name-label">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </div>
+            </form>
+            <div>
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter a valid email" required>
+
+            </div>
+            <div>
+                <label for="age" id="number-label">Age(optional)</label>
+                <input type="number" name="age" id="number" min="0" max="100" placeholder="0">
+            </div>
+
+        </div>
+        <div class="div-container treats-container">
+            <div class="question">
+                <h3>What is your favorite treats</h3>
+            </div>
+            <div>
+                <select name="treats" id="dropdown">
+                    <option value="chocolate">Chocolate</option>
+                    <option value="gummies">Gummies</option>
+                    <option value="baked-goods">Baked Goods</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="div-container weather-container">
+            <div class="question">
+                <h3>What type of weather do you enjoy</h3>
+            </div>
+            <div>
+                <label for="sunny">Sunny</label>
+                <input type="checkbox" name="sunny" id="sunny" value="sunny">
+                <label for="rainy">Rainy</label>
+                <input type="checkbox" name="rainy" id="rainy" value="rainy">
+                <label for="cloudy">Cloudy</label>
+                <input type="checkbox" name="cloudy" id="cloudy" value="cloudy">
+                <label for="snowy">Snowy</label>
+                <input type="checkbox" name="snowy" id="snowy" value="snowy">
+            </div>
+        </div>
+        <div class="div-container radio-container">
+            <fieldset class="radio-group">
+                <legend>What is your prefered mode of transportation</legend>
+
+                <label for="cars">Cars</label>
+                <input type="radio" name="transportation" id="cars" value="cars">
+
+
+
+                <label for="motorcycles">Motorcycles</label>
+                <input type="radio" name="transportation" id="motorcycles" value="motorcycles">
+
+
+
+                <label for="bicycles">Bicycles</label>
+                <input type="radio" name="transportation" id="bicycles" value="bicycles">
+
+
+            </fieldset>
+        </div>
+        <div class="div-container comment-container">
+            <div class="question">
+                <h3>Anything else we should know about</h3>
+            </div>
+            <div>
+                <textarea name="additional-commments" id="comments" cols="30" rows="10">
+            enter additional comments here
+        </textarea>
+            </div>
+        </div>
+
+        <button id="submit">Submit!</button>
+        </form>
+    </div>
+    <script src="" async defer></script>
+</body>
+
+</html>

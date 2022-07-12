@@ -1,0 +1,9 @@
+#img-div {
+    display: grid;
+    justify-content: center;
+}
+
+#image {
+    max-width: 100%;
+    max-height: auto;
+}

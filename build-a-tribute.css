@@ -1,0 +1,58 @@
+.survey-wrapper {
+    display: flex;
+    max-width: 50%;
+}
+
+.div-container {
+    display: flex;
+
+}
+
+#main {
+    justify-content: center;
+}
+
+#title {
+    border-bottom: 5px solid black;
+}
+
+.header {
+    text-align: center;
+}
+
+p {
+    margin: 25px;
+}
+
+#img-caption {
+    text-align: center;
+    padding-top: 10px;
+}
+
+img {
+    display: block;
+}
+
+#img-div {
+    display: block;
+    width: auto;
+
+}
+
+#image {
+    max-width: 100%;
+    max-height: auto;
+    padding: 0 25% 0 25%;
+}
+
+.tribute-link {
+    display: block;
+    text-align: center;
+}
+
+.appreciation {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    font-style: italic;
+    text-align: center;
+}

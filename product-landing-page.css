@@ -1,0 +1,51 @@
+body {
+    align-items: center;
+}
+
+#nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #cc0000;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+}
+
+#header-img-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#header-img {
+    width: 75%;
+    height: 200px;
+}
+
+#nav-bar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    margin-right: 25px;
+}
+
+#header-img-container {
+    width: 100%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+}
+
+@media(max-width: 500px) {
+    #header-img {
+        background-color: lightgrey;
+    }
+}

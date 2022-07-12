@@ -1,0 +1,67 @@
+div {
+    border: 2px black solid;
+}
+
+.survey-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px black solid;
+}
+
+.div-container {
+    display: flex;
+    flex-basis: 100px;
+    align-items: center;
+
+}
+
+#title {
+    margin-top: 0;
+    font-size: 5rem;
+}
+
+.title-container {
+    flex-direction: column;
+    width: 100%;
+}
+
+.info-container {
+    width: 70%;
+    justify-content: space-between;
+}
+
+.treats-container {
+    width: 40%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weather-container {
+    flex: stretch;
+    width: 75%;
+}
+
+.weather-selector {
+    flex-direction: space-around;
+    width: auto;
+}
+
+.radio-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.comment-container {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
